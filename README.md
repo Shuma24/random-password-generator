@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # random-password-generator
 =======
 Hello, this function will allow you to generate a random password.
