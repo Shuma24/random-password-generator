@@ -4,6 +4,7 @@
   "description": "Generate random password or random code",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "type": "module",
   "repository": "https://github.com/Shuma24/random-password-generator",
   "author": "Shuma",
   "keywords": ["password", "random", "generate"],
