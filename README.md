@@ -25,4 +25,4 @@ const password = generateRandomPassword({
 });
 console.log(password)
 //result example = 7_(>=3
->>>>>>> 556c62f (firstcommit)
+
