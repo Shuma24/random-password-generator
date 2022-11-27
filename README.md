@@ -11,9 +11,15 @@
 |  withCharacters  |  boolean  |  Code with symbols | Yes |
 | avoidAmbiguous   | boolean   | Avoid ambiguous characters (l/I/1, 0/O)  | Yes |
 
-### Example:
+### Support Common and module Example:
 
-    import { generateRandomPassword } from '....';
-    const password = generateRandomPassword({ passwordLength: 6, withNumbers: true, withCharacters: true, });
+    import { generateRandomPassword } from 'random-password-generator-2022';
+    //OR
+    const {generateRandomPassword} = require('random-password-generator-2022')
+
+    const password = generateRandomPassword({ passwordLength: 6, 
+    withNumbers: true, withCharacters: true, });
+
+    //7_(>=3
     console.log(password)
-    //result example = 7_(>=3
+
