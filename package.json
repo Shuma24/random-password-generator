@@ -1,21 +1,27 @@
 {
   "name": "random-password-generator-2022",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate random password or random code",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "type": "module",
   "repository": "https://github.com/Shuma24/random-password-generator",
   "author": "Shuma",
-  "keywords": ["password", "random", "generate"],
+  "keywords": [
+    "password",
+    "random",
+    "generate"
+  ],
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.9.3"
   },
   "scripts": {
-    "prepare" : "npm run build",
+    "prepare": "npm run build",
     "build": "tsc",
     "postversion": "git push && git push --tags"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }
