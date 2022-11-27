@@ -2,9 +2,14 @@
   "name": "random-password-generator-2022",
   "version": "0.0.3",
   "description": "Generate random password or random code",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "type": "module",
+  "types": "./lib/types/index.d.ts",
+  "main": "./lib/esm/index.js",
+  "module": "lib/mjs/index.js",
+  "exports": {
+    "import": "./lib/esm/index.js",
+    "require": "./lib/cjs/index.js",
+    "default": "./lib/esm/index.js"
+  },
   "repository": "https://github.com/Shuma24/random-password-generator",
   "author": "Shuma",
   "keywords": [
@@ -17,9 +22,7 @@
     "typescript": "^4.9.3"
   },
   "scripts": {
-    "prepare": "npm run build",
-    "build": "tsc",
-    "postversion": "git push && git push --tags"
+    "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json"
   },
   "files": [
     "lib/**/*"
