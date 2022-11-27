@@ -11,6 +11,8 @@
 |  withCharacters  |  boolean  |  Code with symbols | Yes |
 | avoidAmbiguous   | boolean   | Avoid ambiguous characters (l/I/1, 0/O)  | Yes |
 
+### Example:
+
     import { generateRandomPassword } from '....';
     const password = generateRandomPassword({ passwordLength: 6, withNumbers: true, withCharacters: true, });
     console.log(password)
