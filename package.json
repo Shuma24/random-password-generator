@@ -1,6 +1,6 @@
 {
   "name": "random-password-generator-2022",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate random password or random code",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
