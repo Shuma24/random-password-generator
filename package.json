@@ -14,6 +14,7 @@
   },
   "scripts": {
     "prepare" : "npm run build",
+    "build": "tsc",
     "postversion": "git push && git push --tags"
   },
   "files": ["lib/**/*"]
