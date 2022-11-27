@@ -3,7 +3,7 @@
 ### Function accepts the following options
 
 |   Option|  Type |  Info | Optional |
-| ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ |
 |  passwordLength  |  number  |  password length | No |
 | withLowerCase   |  boolean  | Code with lowercase letters  |Yes |
 |  withNumbers  |  boolean  |  Code with numbers | Yes |
